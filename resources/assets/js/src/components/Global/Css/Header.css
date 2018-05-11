@@ -1,0 +1,35 @@
+.Header {
+    text-align: center;
+    height: 100%;
+    color: Black;
+  }
+  
+  .Logo img {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40px;        
+  }
+  
+  @keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
+.Menu {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.Menu li {
+    display: inline-block;
+    padding-right: 10px;    
+}
+
+.Menu li a {
+  color: black;
+}
+
+.Menu li a:hover {
+  color: #61DAFB
+}
